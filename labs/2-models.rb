@@ -5,7 +5,7 @@
 
 # **************************
 # DON'T CHANGE OR MOVE
-Salesperson.destroy_all
+Salesprson.destroy_all
 # **************************
 
 # Lab 2: Models
@@ -20,6 +20,19 @@ Salesperson.destroy_all
 # 1b. check out the model file
 
 # 2. insert 1-2 rows in salespeople table.
+
+puts "There are #{Salesprson.all.count} salespeople"
+
+new_salesperson = Salesprson.new
+
+new_salesperson["first_name"] = "Abhi"
+new_salesperson["last_name"] = "Bhandari"
+new_salesperson["email"] = "abhishek.bhandari@kellogg.northwestern.edu"
+
+new_salesperson.save
+
+puts "There are #{Salesprson.all.count} salespeople"
+
 
 # 3. write code to display how many salespeople rows are in the database
 

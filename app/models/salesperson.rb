@@ -1,2 +1,0 @@
-class Salesperson < ApplicationRecord
-end

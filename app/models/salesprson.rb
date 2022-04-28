@@ -1,0 +1,2 @@
+class Salesprson < ApplicationRecord
+end
